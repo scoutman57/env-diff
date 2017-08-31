@@ -41,7 +41,7 @@ class Config
             $config['target'] = '.env';
         }
         if (empty($config['dist'])) {
-            $config['dist'] = $config['target'] . '.dist';
+            $config['dist'] = $config['target'] . '.example';
         }
         if (!isset($config['keep-outdated'])) {
             $config['keep-outdated'] = true;
