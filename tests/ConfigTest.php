@@ -15,7 +15,7 @@ class ConfigTest extends TestCase
         return [
             'default config'         => [
                 [],
-                new Config('.env.dist', '.env')
+                new Config('.env.example', '.env')
             ],
             'custom target'          => [
                 ['target' => '.custom'],
